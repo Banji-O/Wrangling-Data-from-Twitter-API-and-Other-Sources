@@ -23,13 +23,13 @@ Just like data gathering, the three datasets were assessed visually or manually 
 > - Platform sources embedded in html code in source column
 > - Timestamp datatype is object instead of datetime
 
-**Tidiness issues**
+**Structural issues**
 > - Doggo, floofer, pupper, and puppo should not have separate columns
 > - Day_name, month, and year_month columns from timestamp column
 > - Tweeter_df, image_df, and tweeter_api_df dataframes should merged together since they all have tweet_id column
     doggo, pupper, floofer, and puppo columns are no more needed
 
-All the quality issues and structural issues are cleaned programmatically with python libraries (Pandas and Numpy). After testing and ascertaining with codes that the issues are corrected, all the three datasets are merged and stored as master dataset to a csv file named `twitter_archive_master dataset`.
+All the quality issues and structural/tidiness issues are cleaned programmatically with python libraries (Pandas and Numpy). After testing and ascertaining with codes that the issues are corrected, all the three datasets are merged and stored as master dataset to a csv file named `twitter_archive_master dataset`.
 
 ## Key Insights for Presentation
 
