@@ -22,8 +22,7 @@
 #     - [Storing data](#Storing-Data)
 # - [Analyzing and Visualizing Data](#Analyzing-and-Visualizing-Data)
 #     - [Visualizations](#Visualizations)
-# - [Resources](#Resources:)
-# 
+# - [Resources](#Resources:)# 
 # 
 # ## Introduction
 # <a id='## Introduction'></a>
@@ -37,7 +36,6 @@
 #    **Importation of Packages**
 
 # In[8]:
-
 
 # importation of packages and libraries
 
@@ -54,7 +52,6 @@ import math
 import matplotlib.pyplot as plt
 
 get_ipython().run_line_magic('matplotlib', 'inline')
-
 
 # ## Data Gathering
 # <a id='## Data-Gathering'></a>
